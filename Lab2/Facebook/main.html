@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <style>
+        body {
+            background-color: #f0f2f5;;
+        }
+
+        .left {
+            width: 400px;
+            position: relative;
+            top: 180px;
+        }
+
+        .logo_image {
+            height: 106px;
+            margin-bottom: -28px;
+        }
+
+        #text {
+            font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+            font-size: 1.5em;
+            font-weight: normal;
+            letter-spacing: normal;
+            line-height: 26px;
+            width: auto;
+            padding-left: 27px;
+        }
+
+        .right {
+            float: right;
+        }
+
+        .form_container {
+            height: 350px;
+            width: 390px;
+            background-color: white;
+            border: none;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+        }
+
+        .form_box {
+            margin: 0;
+            display: block;
+            padding: 0 0 0 6px;
+        }
+        input{
+            display:inline-block;
+            font-size: 17px;
+            width: 317px;
+            padding: 14px 16px;
+            margin: 14px 18px 18px 8px;
+            border-radius: 6px;
+            border: 1px solid #dddfe2;
+            color: gray;
+        }
+        .general_container{
+            margin: 0 350px 0 200px;
+        }
+        .enter_button{
+            background-color: #1877f2;
+            border: none;
+            border-radius: 4px;
+            font-size: 20px;
+            line-height: 48px;
+            margin: 0 18px 0 10px;
+            padding: 0 16px 0 16px;
+            width: 340px;
+            color: white;
+            font-family: Helvetica;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .enter_button:hover{
+            background-color: #186ff2
+        }
+        .forgot_password{
+            margin-top: 16px;
+            border-bottom: 1px solid #dadde1;
+            padding-bottom: 30px;
+        }
+        .link{
+            color: #1877f2;
+            text-decoration: none;
+        }
+        .create_new{
+            margin-top: 10px;
+            border: none;
+            border-radius: 6px;
+            font-size: 17px;
+            background-color: #42b72a;
+            font-weight: bold;
+            color: #fff;
+            padding: 0 16px;
+            line-height: 48px;
+        }
+        .account_creation{
+            border-top: none;
+            color: #1c1e21;
+            font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            font-weight: normal;
+            padding-top: 0;
+            line-height: 1.34;
+            margin-top: 28px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="general_container">
+    <div class="left">
+        <div class="logo_image">
+            <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" height="100px" width="auto">
+        </div>
+        <h2 id="text">
+            Facebook помогает вам всегда оставаться на связи и общаться со своими знакомыми.
+        </h2>
+    </div>
+    <div class="right">
+        <div class="form_container">
+            <form class="form_box">
+                <div>
+                    <input type="text" name="email" placeholder="Электронный адрес или номер телефона">
+                </div>
+                <div>
+                    <input type="text" name="password" placeholder="Пароль">
+                </div>
+                <button class="enter_button" name="login">Вход</button>
+
+                <div class="forgot_password">
+                    <a class="link" href="">Забыли пароль?</a>
+                </div>
+                <div >
+                    <button class="create_new">Создать новый аккаунт</button>
+                </div>
+
+            </form>
+
+        </div>
+        <div class="account_creation">
+            <a href="/pages/create/?ref_type=registration_form" class="_8esh">Создать Страницу</a>
+            знаменитости, музыкальной группы или компании.
+        </div>
+    </div>
+</div>
+</body>
+</html>
